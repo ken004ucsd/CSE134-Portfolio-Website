@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <header>
         <div class="nav-container">
             <nav>
@@ -16,19 +17,18 @@
                 <a href="projects.html">Projects</a> |
                 <a href="contact.html">Contact</a> |
                 <a href="lab.html">Lab</a> 
-
-                <div class="search-container">
-                    <form action="/search-results" method="GET">
-                        <label for="search-query" class="sr-only">Search:</label>
-                        <input type="text" id="search-query" name="query" placeholder="Search..." required>
-                        <button type="submit">Search</button>
-                    </form>
-                </div>
             </nav>
         </div>
         <hr>
     </header>
 
+    <search>
+        <form>
+            <input type="text"
+                   placeholder="enter name">
+        </form>
+    </search>
+    
     <main>
         <div class="intro-container">
             <img src="images/placement.jpg" alt="Kenny Nguyen">
