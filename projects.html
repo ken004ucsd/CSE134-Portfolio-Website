@@ -17,15 +17,13 @@
             <a href="lab.html">Lab</a> 
         </nav>
 
-        <div>
-            <search role="search">
-                <form action="/search-results" method="GET">
-                    <label for="search-query" class="sr-only">Search:</label>
-                    <input type="text" id="search-query" name="query" placeholder="Search..." required>
-                    <button type="submit">Search</button>
-                </form>
-            </search>
-        </div>
+        <search>
+            <form action="search.php">
+              <label for="query">Find what youre looking for!</label>
+              <input id="query" name="q" type="search">
+              <button type="submit">Go!</button>
+            </form>
+          </search>
 
         <hr>
     </header>
